@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<script>
+	</script>
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<title>Ecommerce</title>
+		
+		<link rel="stylesheet" href="/css/foundation.css">
+		<link rel="stylesheet" href="/css/foundation.min.css">
+		<link rel="stylesheet" href="/css/app.css">
+		<link rel="stylesheet" href="/css/bootstrap.css">
+		
+		<link  rel="stylesheet" href="/css/menu.css">
+		<link rel="stylesheet" href="/css/spverticalmegamenu.css">
+		
+		<link rel="stylesheet" href="/css/productList.css">
+		<link rel="stylesheet" href="/css/categoryDetails.css">
+
+		<!--    <link rel="stylesheet" href="/css/bootstrap_backup.css"> -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+			function hideURLbar(){ window.scrollTo(0,1); } </script>
+			<!-- //for-mobile-apps -->
+			<!-- Custom Theme files -->
+			<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> -->
+			<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" /> 
+			<link href="/css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	
+		<script src="https://unpkg.com/react/umd/react.production.min.js"></script>
+
+<script
+  src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+  crossorigin
+></script>
+
+<script
+  src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+  crossorigin
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
+
+		<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/> -->
+		
+		<!-- 	<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css">
+			<link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
+			<link rel="stylesheet" type="text/css" href="/css/fotorama.css">
+			<link rel="stylesheet" type="text/css" href="/css/magnific-popup.css">
+			<link rel="stylesheet" type="text/css" href="/css/custom.css">
+			<link rel="stylesheet" type="text/css" href="/css/responsive.css">
+			<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+			
+			<script defer src="/js/jquery.flexslider.js"></script>
+			<link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" /> -->
+			
+		</head>
+		
+		<style type="text/css">
+		  .shopping-cart {
+    margin-top: 20px;
+  }
+			.carousel {
+				margin-bottom: 0;
+				padding: 0 40px 30px 40px;
+			}
+			/* The controlsy */
+			.carousel-control {
+				left: -12px;
+				height: 40px;
+				width: 40px;
+				background: none repeat scroll 0 0 #222222;
+				border: 4px solid #FFFFFF;
+				border-radius: 23px 23px 23px 23px;
+				margin-top: 90px;
+			}
+			.carousel-control.right {
+				right: -12px;
+			}
+			/* The indicators */
+			.carousel-indicators {
+				right: 50%;
+				top: auto;
+				bottom: -10px;
+				margin-right: -19px;
+			}
+			/* The colour of the indicators */
+			.carousel-indicators li {
+				background: #cecece;
+			}
+			.carousel-indicators .active {
+				background: #428bca;
+			}
+			.menu>li>a{
+				color:#009345
+			}
+			.dropdown.menu .has-submenu>a{
+				color: #009345
+			}
+			#loginButton{
+				background: #009345;
+				color: white;
+			}
+			#registerButton{
+				background: #ec1c24;
+				color: white;
+			}
+			.google{
+				background-color: #ec1c24 !important
+			}
+				
+			</style>
+			
+			<body>
+					<div class="top-bar">
+					<div class="row">
+					   <div class="top-bar-left">
+						  </div>
+						  <div class="top-bar-right">
+							 <ul class="menu">
+								<li>
+								</li>
+								<li>
+								</li>
+							 </ul>
+						  </div>
+					   </div>
+					</div>
+					<div class="row">
+							<div class="medium-10 columns" style="background-color:#e6e7e8">
+							   <ul class="dropdown menu" data-dropdown-menu style="font-size: 13px;">
+								  <li class="has-submenu">
+									 <a href="http://admin.banijjo.com.bd/login" target="__blank">Seller Center |</a>
+								
+									 </li>
+									 <li class="has-submenu">
+										<a href="#">Help |</a>
+										<ul class="submenu menu vertical" data-submenu>
+										   <li><a href="#">Demo</a></li>
+										</ul>
+									 </li>
+									 <li class="has-submenu">
+										<a href="#">Buyer Protection |</a>
+										<ul class="submenu menu vertical" data-submenu>
+										   <li><a href="#">Demo</a></li>
+										</ul>
+									 </li>
+									 <li class="has-submenu">
+										<a href="#"><i class="fa fa-mobile" aria-hidden="true"></i> App |</a>
+										<ul class="submenu menu vertical" data-submenu>
+										   <li><a href="#">Demo</a></li>
+										</ul>
+									 </li>
+									 <li class="has-submenu">
+										<a href="#">Taka/USD |</a>
+										<ul class="submenu menu vertical" data-submenu>
+										   <li><a href="#">Demo</a></li>
+										</ul>
+									 </li>
+									 <li class="has-submenu">
+										<a href="#">Bangla/English |</a>
+										<ul class="submenu menu vertical" data-submenu>
+										   <li><a href="#">Demo</a></li>
+										</ul>
+									 </li>
+									 <li class="has-submenu">
+										<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> Wish List |</a>
+										<ul class="submenu menu vertical" data-submenu>
+										   <li><a href="#">Demo</a></li>
+										</ul>
+									 </li>
+									 <li class="has-submenu">
+										
+										<a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Account |</a>
+										<ul class="dropdown-menu">
+										   <li>
+											  <div class="navbar-login">
+												 <div class="row">
+													 <script>
+														
+														</script>
+												 <div id="customerDiv" class="col-lg-12">
+													 <h1>sdf</h1>
+													<!-- <div class="col-lg-6">
+													   <p class="text-left">
+														  <a id="registerButton" target="__blank" href="http://admin.banijjo.com.bd/register" class="btn btn-block btn-sm">Register</a>
+													   </p>
+													</div>
+													<div class="col-lg-6">
+													   <p class="text-left">
+														  <a id="loginButton" target="__blank" href="http://admin.banijjo.com.bd/login" class="btn btn-block btn-sm">Sign In</a>
+													   </p>
+													</div> -->
+												 </div>
+											  </div>
+										   </div>
+										</li>
+										<li><a href="#">My Orders</a></li>
+										<li><a href="#">Message Center<span class="unread-message-count"></span></a></li>
+										<li><a href="#">Wish List</a></li>
+										<li><a href="#">My Favorite Stores</a></li>
+										<li><a href="#">My Coupons</a></li>
+									 </ul>
+								  </li>
+								  <li class="has-submenu">
+									 <a href="#"><img src="/image/bd_small.png" alt="Banijjo logo"></a>
+								  </li>
+							   </ul>
+							</div>
+						 </div>
+						 
+				<div id="root">
+					
+				</div>
+
+				
+				<script src="/js/jquery.magnific-popup.js"></script> 
+			
+				<!-- <script src="/js/vendor/jquery.js"></script> -->
+				<script src="/js/vendor/what-input.js"></script>
+				<script src="/js/vendor/foundation.js"></script>
+				<script src="/js/app.js"></script>
+				<script src="/js/imagezoom.js"></script>
+				<script>
+					$(document).foundation();
+				</script>
+				<script defer src="/js/jquery.flexslider.js"></script>
+				<link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" />
+				<script type="text/javascript">
+				function logout(){
+					localStorage.setItem('customer_id','');
+					window.location.href = "/";
+					}
+
+					$(window).load(function(){
+						document.getElementById("customerDiv").innerHTML = '';
+						if(localStorage.customer_id!=''){
+															document.getElementById("customerDiv").innerHTML  = '<div class="col-lg-6"><p class="text-left"><button id="loginButton" style="margin-left: 50px;background:#ec1c24"  onclick="logout()" href="#" class="btn btn-block btn-sm">Logout</button></p></div>';
+														}
+														else{
+															document.getElementById("customerDiv").innerHTML  = ' <div class="col-lg-6"><p class="text-left"><a id="registerButton" target="__blank" href="http://admin.banijjo.com.bd/register" class="btn btn-block btn-sm">Register</a></p></div><div class="col-lg-6"><p class="text-left"><a id="loginButton" target="__blank" href="http://admin.banijjo.com.bd/login" class="btn btn-block btn-sm">Login</a></p></div>';
+														}
+						
+						
+					$('#carousel').flexslider({
+							animation: "slide",
+							controlNav: false,
+							animationLoop: false,
+							slideshow: false,
+							itemWidth: 135,
+							itemMargin: 5,
+							asNavFor: '#slider'
+						});
+	
+						$('#slider').flexslider({
+							animation: "slide",
+							controlNav: false,
+							animationLoop: false,
+							slideshow: false,
+							sync: "#carousel",
+							start: function(slider){
+								$('body').removeClass('loading');
+							}
+						});
+					});
+				</script>
+			</body>
+			<script src="/js/easyResponsiveTabs.js"></script>
+				
+			<script type="text/javascript">
+				$(document).ready(function() {
+					console.log('llll',localStorage);
+					
+			// 		$(".scroll").click(function(event){		
+			// 	event.preventDefault();
+			// 	$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			// });
+					$('#horizontalTab1').easyResponsiveTabs({
+						type: 'default',           
+						width: 'auto',
+						fit: true   
+					});
+					
+					$('#Carousel').carousel({
+						interval: 3000
+					})
+					$('#Carouselsm').carousel({
+						interval: 3000
+					})
+					
+					$('#Carousellg').carousel({
+						interval: 3000
+					})
+				});
+			</script>
+			</html>
+			

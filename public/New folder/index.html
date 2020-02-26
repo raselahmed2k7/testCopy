@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <script>
+		</script>
+	<meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+	<title>Ecommerce</title>
+	<link rel="stylesheet" href="/css/foundation.css">
+	<link rel="stylesheet" href="/css/foundation.min.css">
+	<link rel="stylesheet" href="/css/app.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+	<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="/css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/font-awesome.css" rel="stylesheet"> 
+<script src="/js/jquery.min.js"></script> 
+<link href='https://fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="/js/bootstrap-3.1.1.min.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/> -->
+	
+	<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="/css/fotorama.css">
+	<link rel="stylesheet" type="text/css" href="/css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="/css/responsive.css">
+	<!-- 	<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> -->
+
+	<script defer src="/js/jquery.flexslider.js"></script>
+			<link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" />
+			<script>
+				jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+		
+	});
+					// Can also be used with $(document).ready()
+					$(window).load(function() {
+						$('.flexslider').flexslider({
+							animation: "slide",
+							controlNav: "thumbnails"
+						});
+					});
+
+
+
+					$('.value-plus1').on('click', function(){
+								var divUpd = $(this).parent().find('.value1'), newVal = parseInt(divUpd.text(), 10)+1;
+								divUpd.text(newVal);
+							});
+
+							$('.value-minus1').on('click', function(){
+								var divUpd = $(this).parent().find('.value1'), newVal = parseInt(divUpd.text(), 10)-1;
+								if(newVal>=1) divUpd.text(newVal);
+							});
+				</script>
+				<script src="/js/imagezoom.js"></script>
+</head>
+
+
+<style>
+
+* {
+	box-sizing: border-box;
+}
+
+/* style the container */
+
+/* style inputs and link buttons */
+input,
+.btn {
+	width: 100%;
+	padding: 5px;
+	border: none;
+	border-radius: 4px;
+	margin: 5px 0;
+	opacity: 0.85;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 18px;
+	text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+	opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+	background-color: #3B5998;
+	color: white;
+}
+
+.twitter {
+	background-color: #55ACEE;
+	color: white;
+}
+
+.google {
+	background-color: #dd4b39;
+	color: white;
+}
+
+
+
+
+}
+
+
+</style>
+<style type="text/css">
+
+.menu>li>a {
+	display: block;
+	padding: .7rem 1rem;
+	color:black;
+	line-height: 1;
+}
+
+.ex1 {
+	border: 2px solid #EB1C22;
+
+}
+
+.ex1:hover {
+	color:#EB1C22;
+}
+</style>
+<body >
+	<div id="root">
+
+	</div>
+
+
+							
+						</body>
+						<script src="/js/vendor/jquery.js"></script>
+							<script src="/js/vendor/what-input.js"></script>
+							<script src="/js/vendor/foundation.js"></script>
+							<script src="/js/app.js"></script>
+
+							<script src="/js/jquery-1.12.3.min.js"></script>
+							<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script> 
+							<script src="/js/bootstrap.min.js"></script>  
+							<script src="/js/jquery.downCount.js"></script>
+							<script src="/js/jquery-ui.min.js"></script> 
+							<script src="/js/fotorama.js"></script>
+							<script src="/js/jquery.magnific-popup.js"></script> 
+							<script src="/js/owl.carousel.min.js"></script>  
+							<!-- <script src="/js/custom.js"></script> -->
+				
+				<script src="/js/easyResponsiveTabs.js" type="text/javascript"></script>
+				<script type="text/javascript">
+					$(document).ready(function () {
+						$('#horizontalTab1').easyResponsiveTabs({
+						type: 'default',            
+						width: 'auto', 
+						fit: true  
+					});
+					$('.flexslider').flexslider({
+							animation: "slide",
+							controlNav: "thumbnails"
+						});
+					});
+				</script>
+							
+						</html>
